@@ -58,7 +58,7 @@ group :production do
   gem "fog-aws"
   gem "dalli"
   gem "sendgrid-ruby"
-  gem "newrelic_rpm"
+  # gem "newrelic_rpm"
   gem "lograge"
   gem "sidekiq"
   gem "sidekiq-scheduler"
