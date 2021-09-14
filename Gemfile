@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-gem "decidim", git: "https://github.com/OpenSourcePolitics/decidim.git", branch: "0.18-upstream_moderation"
+gem "decidim", git: "https://github.com/OpenSourcePolitics/decidim.git", branch: "feature/pseudomysation"
 # gem "decidim", path: "../decidim"
 
 gem "decidim-questions", git: "https://github.com/OpenSourcePolitics/decidim-questions.git", branch: "feature/upstream_moderation"
@@ -41,7 +41,7 @@ group :development, :test do
   gem "dotenv-rails"
   gem "byebug", "~> 10.0", platform: :mri
 
-  gem "decidim-dev", git: "https://github.com/OpenSourcePolitics/decidim.git", branch: "0.18-upstream_moderation"
+  gem "decidim-dev", git: "https://github.com/OpenSourcePolitics/decidim.git", branch: "feature/pseudomysation"
   # gem "decidim-dev", path: "../decidim"
 end
 
