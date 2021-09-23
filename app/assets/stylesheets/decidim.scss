@@ -24,6 +24,10 @@ body, h1, h2, h3, h4, h5, h6, p, a, span {
   font-family: $body-font-family;
 }
 
+.author__name {
+  word-break: break-all;
+}
+
 .initiative-types-select {
   white-space: normal !important;
   word-break: break-all !important;
