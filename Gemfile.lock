@@ -26,7 +26,7 @@ GIT
 
 GIT
   remote: https://github.com/OpenSourcePolitics/decidim.git
-  revision: 501c973029ec8820b609f26634afe70e2e19237f
+  revision: ee9f1933eb626455076d2e55bfbaa40bb2363910
   branch: feature/pseudomysation
   specs:
     decidim (0.18.0)
